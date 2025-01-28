@@ -1,0 +1,7 @@
+---
+title: "**MAGEPRO**: Multi-Ancestry Gene Expression Prediction Regularized Optimization"
+subtitle: "[{{< fa brands github >}} GitHub](https://github.com/kaiakamatsu/MAGEPRO)&ensp;&emsp;[{{< fa solid book >}} Paper](https://www.medrxiv.org/content/10.1101/2024.09.25.24314410v1)"
+description: "**Akamatsu, K.**, **Golzari, S.**, **Amariuta, T**. Powerful mapping of cis-genetic effects on gene expression across diverse populations reveals novel disease-critical genes. *medRxiv* (2024)."
+date: 09/26/2024
+image: /img/tools/MAGEPRO_fig1.jpeg
+---

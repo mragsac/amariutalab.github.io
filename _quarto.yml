@@ -11,9 +11,9 @@ website:
         text: Home
       - about.qmd
       - publications.qmd
-      - href: https://www.amariutalab.org/github
+      - href: github.qmd
         text: Github
-      - href: https://www.amariutalab.org/genomebrowser
+      - href: genomebrowser.qmd
         text: Genome Browser
       - href: people.qmd
         text: People

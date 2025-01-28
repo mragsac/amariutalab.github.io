@@ -1,0 +1,7 @@
+---
+title: "**TCSC**: Tissue Co-regulation SCore Regression (Inferring Causal Cell Types in Disease)"
+subtitle: "[{{< fa brands github >}} GitHub](https://github.com/TiffanyAmariuta/TCSC/)&ensp;&emsp;[{{< fa solid book >}} Paper](https://www.nature.com/articles/s41588-023-01474-z)"
+description: "**Amariuta, T.**, Siewert-Rocks, K. & Price, A.L. Modeling tissue co-regulation estimates tissue-specific contributions to disease. *Nat Genet* 1503–1511 (2023)."
+date: 08/14/2023
+image: /img/tools/TCSC_fig1.jpeg
+---

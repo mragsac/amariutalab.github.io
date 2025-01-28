@@ -1,0 +1,7 @@
+---
+title: "**IMPACT** (Transcription Factor Binding and Cell-Type-Specific Enhancer Prediction)"
+subtitle: "[{{< fa brands github >}} GitHub](https://github.com/immunogenomics/IMPACT)&ensp;&emsp;[{{< fa solid book >}} Paper](https://www.sciencedirect.com/science/article/pii/S0002929719301089)&ensp;&emsp;[{{< fa solid computer >}} UCSC Genome Browser](../genomebrowser.qmd)"
+description: "**Amariuta, T.**, Luo, Y., Gazal, S., Davenport, E.E., van de Geijn, B., Ishigaki, K., Westra, H.J., Teslovich, N., Okada, Y., Yamamoto, K. and Price, A.L., 2019. IMPACT: genomic annotation of cell-state-specific regulatory elements inferred from the epigenome of bound transcription factors. *The American Journal of Human Genetics* (2019)."
+date: 05/02/2019
+image: /img/tools/IMPACT_fig1.jpeg
+---

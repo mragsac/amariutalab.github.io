@@ -1,0 +1,39 @@
+---
+title: "IMPACT Tracks on the UCSC Genome Browser"
+---
+
+::: {layout-ncol=2}
+![](/img/genomebrowser/IMPACT_header.jpeg){fig-alt="A screenshot of several UCSC Genome Browser Tracks created with the IMPACT tool. The tracks include BLOOD_lymphocyte, BLOOD_lymphoma, BLOOD_macrophage, BLOOD_monocyte, BLOOD_multiple myeloma, BLOOD_myeloid, BLOOD_pbmc, BLOOD_plasma, BLOOD_t all cell, BLOOD_t cell, BLOOD_th1, BLOOD_th2, and BLOOD_treg. There are also tracks for genes present in the region being visualized, as well as indicators for known SNPs within the region." fig-align="center" width=100% .lightbox}
+
+<font size="5">We have generated genome-wide base-pair resolution predictions for each of 707 cell-type-specific IMPACT tracks and integrated them with the UCSC genome browser.<br><br>View and compare IMPACT tracks at your genes or SNPs of interest!</font>
+:::
+
+## IMPACT
+
+We previously developed IMPACT, a machine learning model that predicts cell-type-specific regulatory element activity using master regulator transcription factors as anchors (Amariuta et al., 2019, American Journal of Human Genetics). IMPACT leverages more than five thousand epigenetic experiments across diverse cell types to describe the epigenetic patterns at the sites of actively bound transcription factors. 
+
+We have now computed the IMPACT regulatory element score across all ~3 billion base pairs of the genome for each of 707 unique transcription factor-cell type pairs. Using the UCSC genome browser, you can now query regions, genes, or DNA mutations of interest and visualize the predicted regulatory element activity across different cell types. This can reveal the cell types in which genes may be specifically expressed or the mechanisms that mutations are specifically perturbing. 
+
+[Click here to get started!](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr2%3A204731424%2D204737596&hgsid=1934727764_rIAiAWPAGhjOcW4HDUD1NMNWWv9W){.btn .btn-outline-primary .btn role="button"} 
+
+For more information on the development of IMPACT and resulting predictive models, please navigate to the [Tools Section](/github.qmd) of our website.
+
+### Viewing Transcription Factor-Specific Activity
+
+You may collapse or expand information across different IMPACT tracks from the same general tissue or cell type category to reveal consensus regulatory element activity (darker colors) compared to transcription factor-specific activity (lighter colors). By default IMPACT tracks are collapsed across models that share the same cell type, but are characterized by different transcription factors. To expand IMPACT tracks, click anywhere in the middle of the track, identify the `Overlay Method` option and select `None` from the drop-down menu. You may also select specific transcription factor tracks of interest by (de)-selecting the IMPACT tracks in `List Substracts`. The ID number for each track corresponds to the ID number assigned to the IMPACT track in the publication.  
+
+![](/img/genomebrowser/IMPACT_instructions.jpeg){fig-alt="A screenshot from the UCSC Genome Browser containing a Before and After image from using IMPACT with the general consensus regulatory activity collapsed (Before) and when expanding the tracks to view transcription factor-specific activity (After) with the Overlay Method option." fig-align="center" width=100% .lightbox}
+
+## Data Format
+
+IMPACT prediction tracks are in `.bigwig` file format to be compatible with the UCSC genome browser. To download these bigwig files please visit our repository on [Galaxy](https://usegalaxy.org/histories/list_published). While `.bigwig` files are binary files, we have also released IMPACT track predictions in `.bedgraph` file format for easier data manipulation and analysis. You can find all these data on galaxy, when searching `user_eq:impact_predictions` in `Published Histories`.
+
+![](/img/genomebrowser/IMPACT_galaxy.jpeg){fig-alt="A screenshot from Galaxy showing where to install IMPACT files within the Published Histories section. There are download links for `.bedgraph` files corresponding to BREAST, ADIPOCYTE, PANCREAS, BREAST, CERVIC, GI, BLOOD, LIVER, and MUSCULOSKELETAL shown." fig-align="center" width=100% .lightbox}
+
+## Acknowledgements
+
+We thank Alona Korzhakova, Computational Data Science Researcher in the Amariuta Lab, and Kathryn Weinand in the Raychaudhuri Lab for generating genome-wide base pair resolution IMPACT tracks. We thank Alona for integrating them with the UCSC genome browser, such that these data now have full and direct access to the genomics community.
+
+### We would love to hear your feedback!
+
+For questions or comments, please contact us at **tamariuta [*at*] ucsd [*dot*] edu**.

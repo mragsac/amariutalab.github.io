@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Amariuta Lab</title>
+<title>IMPACT Tracks on the UCSC Genome Browser – The Amariuta Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-0016014955b1b85a8a5e998a3e060131.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -72,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -88,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Github</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./genomebrowser.html"> 
+    <a class="nav-link active" href="./genomebrowser.html" aria-current="page"> 
 <span class="menu-text">Genome Browser</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Amariuta Lab</h1>
+<h1 class="title">IMPACT Tracks on the UCSC Genome Browser</h1>
 </div>
 
 
@@ -129,17 +132,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego" class="level2">
-<h2 class="anchored" data-anchor-id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego">The Halıcıoğlu Data Science Institute<br>The Department of Medicine<br>University of California, San Diego</h2>
-<p>We are a statistical genetics lab focusing on developing methods to study complex traits and polygenic diseases in global populations. We are specifically interested in fine-mapping disease genes and their cell types of action, with the goal of finding targets for gene-based therapeutics.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./img/genomebrowser/IMPACT_header.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="./img/genomebrowser/IMPACT_header.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A screenshot of several UCSC Genome Browser Tracks created with the IMPACT tool. The tracks include BLOOD_lymphocyte, BLOOD_lymphoma, BLOOD_macrophage, BLOOD_monocyte, BLOOD_multiple myeloma, BLOOD_myeloid, BLOOD_pbmc, BLOOD_plasma, BLOOD_t all cell, BLOOD_t cell, BLOOD_th1, BLOOD_th2, and BLOOD_treg. There are also tracks for genes present in the region being visualized, as well as indicators for known SNPs within the region."></a></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><font size="5">We have generated genome-wide base-pair resolution predictions for each of 707 cell-type-specific IMPACT tracks and integrated them with the UCSC genome browser.<br><br>View and compare IMPACT tracks at your genes or SNPs of interest!</font></p>
+</div>
+</div>
+</div>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">IMPACT</h2>
+<p>We previously developed IMPACT, a machine learning model that predicts cell-type-specific regulatory element activity using master regulator transcription factors as anchors (Amariuta et al., 2019, American Journal of Human Genetics). IMPACT leverages more than five thousand epigenetic experiments across diverse cell types to describe the epigenetic patterns at the sites of actively bound transcription factors.</p>
+<p>We have now computed the IMPACT regulatory element score across all ~3 billion base pairs of the genome for each of 707 unique transcription factor-cell type pairs. Using the UCSC genome browser, you can now query regions, genes, or DNA mutations of interest and visualize the predicted regulatory element activity across different cell types. This can reveal the cell types in which genes may be specifically expressed or the mechanisms that mutations are specifically perturbing.</p>
+<p><a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&amp;lastVirtModeType=default&amp;lastVirtModeExtraState=&amp;virtModeType=default&amp;virtMode=0&amp;nonVirtPosition=&amp;position=chr2%3A204731424%2D204737596&amp;hgsid=1934727764_rIAiAWPAGhjOcW4HDUD1NMNWWv9W" class="btn btn-outline-primary" role="button">Click here to get started!</a></p>
+<p>For more information on the development of IMPACT and resulting predictive models, please navigate to the <a href="./github.html">Tools Section</a> of our website.</p>
+<section id="viewing-transcription-factor-specific-activity" class="level3">
+<h3 class="anchored" data-anchor-id="viewing-transcription-factor-specific-activity">Viewing Transcription Factor-Specific Activity</h3>
+<p>You may collapse or expand information across different IMPACT tracks from the same general tissue or cell type category to reveal consensus regulatory element activity (darker colors) compared to transcription factor-specific activity (lighter colors). By default IMPACT tracks are collapsed across models that share the same cell type, but are characterized by different transcription factors. To expand IMPACT tracks, click anywhere in the middle of the track, identify the <code>Overlay Method</code> option and select <code>None</code> from the drop-down menu. You may also select specific transcription factor tracks of interest by (de)-selecting the IMPACT tracks in <code>List Substracts</code>. The ID number for each track corresponds to the ID number assigned to the IMPACT track in the publication.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./img/genomebrowser/IMPACT_instructions.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="./img/genomebrowser/IMPACT_instructions.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="A screenshot from the UCSC Genome Browser containing a Before and After image from using IMPACT with the general consensus regulatory activity collapsed (Before) and when expanding the tracks to view transcription factor-specific activity (After) with the Overlay Method option."></a></p>
+</figure>
+</div>
 </section>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<p>Currently, health-related discoveries from the field of human genetics disproportionately benefit individuals of European descent, due to the longstanding Eurocentric bias in data collection and study design. I am particularly motivated to work with ancestrally diverse patient cohorts and develop statistical genetics methods that can be applied to data from multiple populations; most methods have only been applied to European populations and cannot be applied to more than one population at a time.</p>
-<p>I am generally interested in studying the complex nature of the genetic susceptibility of human disease and phenotypes. The precise biological mechanisms through which genetic variation is mediated to impact complex traits and diseases remain largely uncertain. I am interested in studying intermediate phenotypes such as gene and protein expression, while also understanding how environmental factors can modulate genetic risk. My previous work has approached these questions from a population genetics perspective, leveraging large biobank data, such as genome-wide association studies (GWAS) from the UK Biobank and Biobank Japan, consortium-level functional data, such as from ENCODE, and gene expression studies, such as from GTEx.</p>
-<p>– Tiffany Amariuta, Principal Investigator</p>
+</section>
+<section id="data-format" class="level2">
+<h2 class="anchored" data-anchor-id="data-format">Data Format</h2>
+<p>IMPACT prediction tracks are in <code>.bigwig</code> file format to be compatible with the UCSC genome browser. To download these bigwig files please visit our repository on <a href="https://usegalaxy.org/histories/list_published">Galaxy</a>. While <code>.bigwig</code> files are binary files, we have also released IMPACT track predictions in <code>.bedgraph</code> file format for easier data manipulation and analysis. You can find all these data on galaxy, when searching <code>user_eq:impact_predictions</code> in <code>Published Histories</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./img/genomebrowser/IMPACT_galaxy.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="./img/genomebrowser/IMPACT_galaxy.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="A screenshot from Galaxy showing where to install IMPACT files within the Published Histories section. There are download links for `.bedgraph` files corresponding to BREAST, ADIPOCYTE, PANCREAS, BREAST, CERVIC, GI, BLOOD, LIVER, and MUSCULOSKELETAL shown."></a></p>
+</figure>
+</div>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>We thank Alona Korzhakova, Computational Data Science Researcher in the Amariuta Lab, and Kathryn Weinand in the Raychaudhuri Lab for generating genome-wide base pair resolution IMPACT tracks. We thank Alona for integrating them with the UCSC genome browser, such that these data now have full and direct access to the genomics community.</p>
+<section id="we-would-love-to-hear-your-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="we-would-love-to-hear-your-feedback">We would love to hear your feedback!</h3>
+<p>For questions or comments, please contact us at <strong>tamariuta [<em>at</em>] ucsd [<em>dot</em>] edu</strong>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -574,6 +617,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

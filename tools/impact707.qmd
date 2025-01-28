@@ -1,0 +1,7 @@
+---
+title: "**IMPACT 707 for Trans-Ancestry PRS**"
+subtitle: "[{{< fa brands github >}} GitHub](https://github.com/TiffanyAmariuta/TCSC/)&ensp;&emsp;[{{< fa solid book >}} Paper](https://www.nature.com/articles/s41588-020-00740-8)"
+description: "**Amariuta, T.**, Ishigaki, K., Sugishita, H. et al. Improving the trans-ancestry portability of polygenic risk scores by prioritizing variants in predicted cell-type-specific regulatory elements. *Nat Genet* 52, 1346–1354 (2020)."
+date: 11/30/2020
+image: /img/tools/IMPACT707_fig1.jpeg
+---

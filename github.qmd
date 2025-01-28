@@ -1,0 +1,18 @@
+---
+title: "Methods Development"
+listing:
+    contents: tools
+    type: grid
+    sort: date
+    sort-ui: [title, date]
+    filter-ui: [title, date]
+    grid-columns: 1
+    field-display-names:
+        title: "Method Name"
+        subtitle: "GitHub Repository"
+        description: "Associated Publication"
+    max-description-length: 500
+    date-format: long
+    fields: ['image', 'title', 'subtitle', 'description', 'date']
+    image-height: 100%
+---

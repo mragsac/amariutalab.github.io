@@ -131,5 +131,68 @@
     "title": "About",
     "section": "",
     "text": "Before starting her lab in San Diego, Tiffany earned a B.S. in Biological Engineering at MIT and went on to conduct graduate research with Dr. Soumya Raychaudhuri as part of the Bioinformatics and Integrative Genomics PhD program at Harvard Medical School, where she studied the genetic susceptibility of autoimmune diseases and other polygenic diseases. During graduate school, Tiffany developed machine learning methods to predict the functionality of regulatory variants, which had applications to transcription factor binding prediction, eQTL mapping, heritability enrichment analysis, and trans-ancestry portability of polygenic risk scores. She pursued post-doctoral research studying tissue-mediated genetic effects with Dr. Alkes Price at the Harvard School of Public Health. Now, Tiffany is an Assistant Professor in the Halıcıoğlu Data Science Institute and the Department of Medicine at the University of California San Diego. In her free time, Tiffany enjoys hiking, tennis, beach volleyball, and spending time with her dog, Dax."
+  },
+  {
+    "objectID": "github.html#inferring-causal-cell-types-in-disease-tcsc-tissue-co-regulation-score-regression",
+    "href": "github.html#inferring-causal-cell-types-in-disease-tcsc-tissue-co-regulation-score-regression",
+    "title": "Methods Development",
+    "section": "Inferring causal cell types in disease: TCSC (Tissue Co-regulation SCore Regression)",
+    "text": "Inferring causal cell types in disease: TCSC (Tissue Co-regulation SCore Regression)\nhttps://github.com/TiffanyAmariuta/TCSC/\nPublished in Nature Genetics (2023). https://www.nature.com/articles/s41588-023-01474-z."
+  },
+  {
+    "objectID": "github.html#impact-707-for-trans-ancestry-prs",
+    "href": "github.html#impact-707-for-trans-ancestry-prs",
+    "title": "Methods Development",
+    "section": "IMPACT-707 for trans-ancestry PRS",
+    "text": "IMPACT-707 for trans-ancestry PRS\nhttps://github.com/immunogenomics/IMPACT/tree/master/IMPACT707\nPublished in Nature Genetics (2020). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8049522/."
+  },
+  {
+    "objectID": "github.html#impact-transcription-factor-binding-and-cell-type-specific-enhancer-prediction",
+    "href": "github.html#impact-transcription-factor-binding-and-cell-type-specific-enhancer-prediction",
+    "title": "Methods Development",
+    "section": "IMPACT (transcription factor binding and cell-type-specific enhancer prediction)",
+    "text": "IMPACT (transcription factor binding and cell-type-specific enhancer prediction)\nhttps://github.com/immunogenomics/IMPACT\nPublished in the American Journal of Human Genetics (2019). https://pubmed.ncbi.nlm.nih.gov/31006511/.\nInteract with IMPACT on the UCSC Genome Browser!"
+  },
+  {
+    "objectID": "github.html",
+    "href": "github.html",
+    "title": "Methods Development",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Method Name\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIMPACT (Transcription Factor Binding and Cell-Type-Specific Enhancer Prediction)\n\n\n GitHub   Paper   UCSC Genome Browser\n\n\nAmariuta, T., Luo, Y., Gazal, S., Davenport, E.E., van de Geijn, B., Ishigaki, K., Westra, H.J., Teslovich, N., Okada, Y., Yamamoto, K. and Price, A.L., 2019. IMPACT: genomic annotation of cell-state-specific regulatory elements inferred from the epigenome of bound transcription factors. The American Journal of Human Genetics (2019).\n\n\n\nMay 2, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIMPACT 707 for Trans-Ancestry PRS\n\n\n GitHub   Paper\n\n\nAmariuta, T., Ishigaki, K., Sugishita, H. et al. Improving the trans-ancestry portability of polygenic risk scores by prioritizing variants in predicted cell-type-specific regulatory elements. Nat Genet 52, 1346–1354 (2020).\n\n\n\nNovember 30, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTCSC: Tissue Co-regulation SCore Regression (Inferring Causal Cell Types in Disease)\n\n\n GitHub   Paper\n\n\nAmariuta, T., Siewert-Rocks, K. & Price, A.L. Modeling tissue co-regulation estimates tissue-specific contributions to disease. Nat Genet 1503–1511 (2023).\n\n\n\nAugust 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMAGEPRO: Multi-Ancestry Gene Expression Prediction Regularized Optimization\n\n\n GitHub   Paper\n\n\nAkamatsu, K., Golzari, S., Amariuta, T. Powerful mapping of cis-genetic effects on gene expression across diverse populations reveals novel disease-critical genes. medRxiv (2024).\n\n\n\nSeptember 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "github.html#magepro-multi-ancestry-gene-expression-prediction-regularized-optimization",
+    "href": "github.html#magepro-multi-ancestry-gene-expression-prediction-regularized-optimization",
+    "title": "Methods Development",
+    "section": "",
+    "text": "https://github.com/kaiakamatsu/MAGEPRO\nPreprint available on medRxiv (2024). https://www.medrxiv.org/content/10.1101/2024.09.25.24314410v1."
+  },
+  {
+    "objectID": "genomebrowser.html",
+    "href": "genomebrowser.html",
+    "title": "IMPACT Tracks on the UCSC Genome Browser",
+    "section": "",
+    "text": "We have generated genome-wide base-pair resolution predictions for each of 707 cell-type-specific IMPACT tracks and integrated them with the UCSC genome browser. View and compare IMPACT tracks at your genes or SNPs of interest! ::::"
+  },
+  {
+    "objectID": "genomebrowser.html#data-format",
+    "href": "genomebrowser.html#data-format",
+    "title": "IMPACT Tracks on the UCSC Genome Browser",
+    "section": "Data Format",
+    "text": "Data Format\nIMPACT prediction tracks are in .bigwig file format to be compatible with the UCSC genome browser. To download these bigwig files please visit our repository on Galaxy. While .bigwig files are binary files, we have also released IMPACT track predictions in .bedgraph file format for easier data manipulation and analysis. You can find all these data on galaxy, when searching user_eq:impact_predictions in Published Histories."
+  },
+  {
+    "objectID": "genomebrowser.html#acknowledgements",
+    "href": "genomebrowser.html#acknowledgements",
+    "title": "IMPACT Tracks on the UCSC Genome Browser",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nWe thank Alona Korzhakova, Computational Data Science Researcher in the Amariuta Lab, and Kathryn Weinand in the Raychaudhuri Lab for generating genome-wide base pair resolution IMPACT tracks. We thank Alona for integrating them with the UCSC genome browser, such that these data now have full and direct access to the genomics community.\n\nWe would love to hear your feedback!\nFor questions or comments, please contact us at tamariuta [at] ucsd [dot] edu."
+  },
+  {
+    "objectID": "genomebrowser.html#impact",
+    "href": "genomebrowser.html#impact",
+    "title": "IMPACT Tracks on the UCSC Genome Browser",
+    "section": "IMPACT",
+    "text": "IMPACT\nWe previously developed IMPACT, a machine learning model that predicts cell-type-specific regulatory element activity using master regulator transcription factors as anchors (Amariuta et al., 2019, American Journal of Human Genetics). IMPACT leverages more than five thousand epigenetic experiments across diverse cell types to describe the epigenetic patterns at the sites of actively bound transcription factors.\nWe have now computed the IMPACT regulatory element score across all ~3 billion base pairs of the genome for each of 707 unique transcription factor-cell type pairs. Using the UCSC genome browser, you can now query regions, genes, or DNA mutations of interest and visualize the predicted regulatory element activity across different cell types. This can reveal the cell types in which genes may be specifically expressed or the mechanisms that mutations are specifically perturbing.\nClick here to get started!\nFor more information on the development of IMPACT and resulting predictive models, please navigate to the Tools Section of our website.\n\nViewing Transcription Factor-Specific Activity\nYou may collapse or expand information across different IMPACT tracks from the same general tissue or cell type category to reveal consensus regulatory element activity (darker colors) compared to transcription factor-specific activity (lighter colors). By default IMPACT tracks are collapsed across models that share the same cell type, but are characterized by different transcription factors. To expand IMPACT tracks, click anywhere in the middle of the track, identify the Overlay Method option and select None from the drop-down menu. You may also select specific transcription factor tracks of interest by (de)-selecting the IMPACT tracks in List Substracts. The ID number for each track corresponds to the ID number assigned to the IMPACT track in the publication."
   }
 ]
