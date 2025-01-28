@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "The Amariuta Lab"
+  search: false
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - publications.qmd
+      - href: https://www.amariutalab.org/github
+        text: Github
+      - href: https://www.amariutalab.org/genomebrowser
+        text: Genome Browser
+      - href: people.qmd
+        text: People
+    background: dark
+  page-footer:
+    left: |
+      **Contact Information**<br>
+      tamariutabartell [*at*] ucsd [*dot*] edu<br>
+      Franklin Antonio Hall, Voigt Drive, La Jolla, CA 92093
+    right: |
+      Halıcıoğlu Data Science Institute<br>
+      Department of Medicine<br>
+      University of California, San Diego<br>
+    background: dark
+
+format:
+  html:
+    theme:
+      - united
+      - brand
+    css: styles.css
+    toc: false
