@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,10 +31,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0016014955b1b85a8a5e998a3e060131.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -129,12 +129,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego" class="level2">
-<h2 class="anchored" data-anchor-id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego">The Halıcıoğlu Data Science Institute<br>The Department of Medicine<br>University of California, San Diego</h2>
+<section id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego" class="level3">
+<h3 class="anchored" data-anchor-id="the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego">The Halıcıoğlu Data Science Institute<br>The Department of Medicine<br>University of California, San Diego</h3>
 <p>We are a statistical genetics lab focusing on developing methods to study complex traits and polygenic diseases in global populations. We are specifically interested in fine-mapping disease genes and their cell types of action, with the goal of finding targets for gene-based therapeutics.</p>
 </section>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
+<section id="research-interests" class="level3">
+<h3 class="anchored" data-anchor-id="research-interests">Research Interests</h3>
 <p>Currently, health-related discoveries from the field of human genetics disproportionately benefit individuals of European descent, due to the longstanding Eurocentric bias in data collection and study design. I am particularly motivated to work with ancestrally diverse patient cohorts and develop statistical genetics methods that can be applied to data from multiple populations; most methods have only been applied to European populations and cannot be applied to more than one population at a time.</p>
 <p>I am generally interested in studying the complex nature of the genetic susceptibility of human disease and phenotypes. The precise biological mechanisms through which genetic variation is mediated to impact complex traits and diseases remain largely uncertain. I am interested in studying intermediate phenotypes such as gene and protein expression, while also understanding how environmental factors can modulate genetic risk. My previous work has approached these questions from a population genetics perspective, leveraging large biobank data, such as genome-wide association studies (GWAS) from the UK Biobank and Biobank Japan, consortium-level functional data, such as from ENCODE, and gene expression studies, such as from GTEx.</p>
 <p>– Tiffany Amariuta, Principal Investigator</p>
@@ -225,6 +225,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -233,7 +235,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mragsac\.github\.io\/amariutalab\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -335,6 +337,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0016014955b1b85a8a5e998a3e060131.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -219,7 +219,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1556780400000" data-listing-file-modified-sort="1738104508481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1556780400000" data-listing-file-modified-sort="1738616477841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./tools/impact.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./tools/impact.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -244,7 +244,7 @@ May 2, 2019
 </div>
 
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1606723200000" data-listing-file-modified-sort="1738104144579" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1606723200000" data-listing-file-modified-sort="1738616477841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./tools/impact707.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./tools/impact707.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -269,7 +269,7 @@ November 30, 2020
 </div>
 
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1691996400000" data-listing-file-modified-sort="1738104126519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1691996400000" data-listing-file-modified-sort="1738616477841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./tools/tcsc.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./tools/tcsc.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -294,7 +294,7 @@ August 14, 2023
 </div>
 
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1727334000000" data-listing-file-modified-sort="1738104600315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1727334000000" data-listing-file-modified-sort="1738616477841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./tools/magepro.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./tools/magepro.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -406,6 +406,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -414,7 +416,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mragsac\.github\.io\/amariutalab\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -516,6 +518,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
