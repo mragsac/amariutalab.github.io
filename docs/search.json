@@ -28,25 +28,18 @@
     "text": "Before starting her lab in San Diego, Tiffany earned a B.S. in Biological Engineering at MIT and went on to conduct graduate research with Dr. Soumya Raychaudhuri as part of the Bioinformatics and Integrative Genomics PhD program at Harvard Medical School, where she studied the genetic susceptibility of autoimmune diseases and other polygenic diseases. During graduate school, Tiffany developed machine learning methods to predict the functionality of regulatory variants, which had applications to transcription factor binding prediction, eQTL mapping, heritability enrichment analysis, and trans-ancestry portability of polygenic risk scores. She pursued post-doctoral research studying tissue-mediated genetic effects with Dr. Alkes Price at the Harvard School of Public Health. Now, Tiffany is an Assistant Professor in the Halıcıoğlu Data Science Institute and the Department of Medicine at the University of California San Diego. In her free time, Tiffany enjoys hiking, tennis, beach volleyball, and spending time with her dog, Dax."
   },
   {
+    "objectID": "about.html#tiffany-amariuta-ph.d.",
+    "href": "about.html#tiffany-amariuta-ph.d.",
+    "title": "About",
+    "section": "",
+    "text": "Before starting her lab in San Diego, Tiffany earned a B.S. in Biological Engineering at MIT and went on to conduct graduate research with Dr. Soumya Raychaudhuri as part of the Bioinformatics and Integrative Genomics PhD program at Harvard Medical School, where she studied the genetic susceptibility of autoimmune diseases and other polygenic diseases. During graduate school, Tiffany developed machine learning methods to predict the functionality of regulatory variants, which had applications to transcription factor binding prediction, eQTL mapping, heritability enrichment analysis, and trans-ancestry portability of polygenic risk scores. She pursued post-doctoral research studying tissue-mediated genetic effects with Dr. Alkes Price at the Harvard School of Public Health. Now, Tiffany is an Assistant Professor in the Halıcıoğlu Data Science Institute and the Department of Medicine at the University of California San Diego. In her free time, Tiffany enjoys hiking, tennis, beach volleyball, and spending time with her dog, Dax."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The Amariuta Lab",
     "section": "",
     "text": "The Halıcıoğlu Data Science InstituteThe Department of MedicineUniversity of California, San Diego\nWe are a statistical genetics lab focusing on developing methods to study complex traits and polygenic diseases in global populations. We are specifically interested in fine-mapping disease genes and their cell types of action, with the goal of finding targets for gene-based therapeutics.\n\n\nResearch Interests\nCurrently, health-related discoveries from the field of human genetics disproportionately benefit individuals of European descent, due to the longstanding Eurocentric bias in data collection and study design. I am particularly motivated to work with ancestrally diverse patient cohorts and develop statistical genetics methods that can be applied to data from multiple populations; most methods have only been applied to European populations and cannot be applied to more than one population at a time.\nI am generally interested in studying the complex nature of the genetic susceptibility of human disease and phenotypes. The precise biological mechanisms through which genetic variation is mediated to impact complex traits and diseases remain largely uncertain. I am interested in studying intermediate phenotypes such as gene and protein expression, while also understanding how environmental factors can modulate genetic risk. My previous work has approached these questions from a population genetics perspective, leveraging large biobank data, such as genome-wide association studies (GWAS) from the UK Biobank and Biobank Japan, consortium-level functional data, such as from ENCODE, and gene expression studies, such as from GTEx.\n– Tiffany Amariuta, Principal Investigator"
-  },
-  {
-    "objectID": "index.html#the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego",
-    "href": "index.html#the-halıcıoğlu-data-science-institute-the-department-of-medicine-university-of-california-san-diego",
-    "title": "The Amariuta Lab",
-    "section": "",
-    "text": "We are a statistical genetics lab focusing on developing methods to study complex traits and polygenic diseases in global populations. We are specifically interested in fine-mapping disease genes and their cell types of action, with the goal of finding targets for gene-based therapeutics."
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "The Amariuta Lab",
-    "section": "Research Interests",
-    "text": "Research Interests\nCurrently, health-related discoveries from the field of human genetics disproportionately benefit individuals of European descent, due to the longstanding Eurocentric bias in data collection and study design. I am particularly motivated to work with ancestrally diverse patient cohorts and develop statistical genetics methods that can be applied to data from multiple populations; most methods have only been applied to European populations and cannot be applied to more than one population at a time.\nI am generally interested in studying the complex nature of the genetic susceptibility of human disease and phenotypes. The precise biological mechanisms through which genetic variation is mediated to impact complex traits and diseases remain largely uncertain. I am interested in studying intermediate phenotypes such as gene and protein expression, while also understanding how environmental factors can modulate genetic risk. My previous work has approached these questions from a population genetics perspective, leveraging large biobank data, such as genome-wide association studies (GWAS) from the UK Biobank and Biobank Japan, consortium-level functional data, such as from ENCODE, and gene expression studies, such as from GTEx.\n– Tiffany Amariuta, Principal Investigator"
   },
   {
     "objectID": "github.html",
@@ -133,6 +126,13 @@
     "text": "Nan Huang\n\n\n\n\n\n\n\nUndergraduate Researcher\nNan is a third-year undergraduate student double majoring in Data Science and Math Econ. She is interested in understanding the genetic basis of childhood asthma, aiming to develop clinical risk models that integrate genetic, transcriptomic, and non-genetic risk factors to enhance early asthma detection and personalized treatment strategies. Outside the lab, Nan enjoys exploring new restaurants, cooking recipes, and different types of music."
   },
   {
+    "objectID": "people.html#join-us",
+    "href": "people.html#join-us",
+    "title": "Meet the Team",
+    "section": "Join Us!!",
+    "text": "Join Us!!\n\n\n We are looking to recruit talented graduate students and postdoctoral researchers!\n\n\n\n\nWe are Hiring!!"
+  },
+  {
     "objectID": "people.html#staff-researchers",
     "href": "people.html#staff-researchers",
     "title": "Meet the Team",
@@ -159,26 +159,5 @@
     "title": "Meet the Team",
     "section": "High School Researchers",
     "text": "High School Researchers\n\nPablo Correa Bocardo, ENLACE (Summer 2024)\nKeya Patel, ENLACE (Summer 2024)\nFrida Valeria Rivera Lopez, ENLACE (Summer 2024)\nMiranda Cuervo, ENLACE (Summer 2024)"
-  },
-  {
-    "objectID": "people.html#another-title",
-    "href": "people.html#another-title",
-    "title": "Meet the Team",
-    "section": "",
-    "text": "Some text that is very long and that should take most of the column space.\n\nSome other text that should be below the first paragraph.\n\n\n\n::: ::::"
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
-    "section": "",
-    "text": "Before starting her lab in San Diego, Tiffany earned a B.S. in Biological Engineering at MIT and went on to conduct graduate research with Dr. Soumya Raychaudhuri as part of the Bioinformatics and Integrative Genomics PhD program at Harvard Medical School, where she studied the genetic susceptibility of autoimmune diseases and other polygenic diseases. During graduate school, Tiffany developed machine learning methods to predict the functionality of regulatory variants, which had applications to transcription factor binding prediction, eQTL mapping, heritability enrichment analysis, and trans-ancestry portability of polygenic risk scores. She pursued post-doctoral research studying tissue-mediated genetic effects with Dr. Alkes Price at the Harvard School of Public Health. Now, Tiffany is an Assistant Professor in the Halıcıoğlu Data Science Institute and the Department of Medicine at the University of California San Diego. In her free time, Tiffany enjoys hiking, tennis, beach volleyball, and spending time with her dog, Dax."
-  },
-  {
-    "objectID": "people.html#join-us",
-    "href": "people.html#join-us",
-    "title": "Meet the Team",
-    "section": "Join Us!!",
-    "text": "Join Us!!\n\n\n We are looking to recruit talented graduate students and postdoctoral researchers!\n\n\n\n\nWe are Hiring!!"
   }
 ]
