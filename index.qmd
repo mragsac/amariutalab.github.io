@@ -4,6 +4,7 @@ format:
   html:
     theme: default
     css: styles.css
+title-block-banner: true
 ---
 
 ### The Halıcıoğlu Data Science Institute<br>The Department of Medicine<br>University of California, San Diego

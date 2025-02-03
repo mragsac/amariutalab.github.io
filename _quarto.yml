@@ -32,7 +32,6 @@ website:
 format:
   html:
     theme:
-      - united
       - brand
     css: styles.css
     toc: false
