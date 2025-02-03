@@ -1,10 +1,8 @@
 ---
-title: ""
+title: "Meet the Team"
 toc: true
 toc-depth: 2
 ---
-
-# Meet the Team
 
 ## Tiffany Amariuta, Ph.D.
 ::: columns
@@ -94,7 +92,6 @@ Krishna is a PhD student in the Bioengineering department. He graduated from UC 
 ### Computer Science & Engineering Ph.D. Student
 
 Ishaan is a PhD student in the Computer Science department and is driven to improve our ability to predict immune responses and disorders in patients. He is currently using gene expression prediction models to find causal cell types and states in autoimmune disorders and immune cell mechanisms. In his free time, Ishaan loves to try food and recipes from across the globe or go hiking.
-image (14).png
 
 :::
 :::
@@ -171,6 +168,24 @@ Nan is a third-year undergraduate student double majoring in Data Science and Ma
 :::
 :::
 
+## Join Us!!
+::: columns
+::: {.column width="50%"}
+<br><br><br>
+We are looking to recruit talented graduate students and postdoctoral researchers! 
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+### We are Hiring!!
+![](img/people/ASHG24.png)
+
+:::
+:::
+
 # Lab Alumni 
 
 ## Staff Researchers
@@ -201,3 +216,4 @@ Nan is a third-year undergraduate student double majoring in Data Science and Ma
 * Keya Patel, ENLACE (Summer 2024) 
 * Frida Valeria Rivera Lopez, ENLACE (Summer 2024) 
 * Miranda Cuervo, ENLACE (Summer 2024) 
+
