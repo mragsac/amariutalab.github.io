@@ -1,1 +1,24 @@
 /* css styles */
+.quarto-title-banner {
+  background: linear-gradient(to bottom, orange, #87CEEB);
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+.quarto-title-banner h1 {
+  font-size: 1em;
+  color: white;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  font-size: 1em;
+}
