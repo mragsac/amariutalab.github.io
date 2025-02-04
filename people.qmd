@@ -171,8 +171,11 @@ Nan is a third-year undergraduate student double majoring in Data Science and Ma
 ## Join Us!!
 ::: columns
 ::: {.column width="50%"}
-<br><br><br>
+### We are Hiring!!
+<br>
 We are looking to recruit talented graduate students and postdoctoral researchers! 
+
+[Apply Now!](mailto:tamariutabartell@ucsd.edu){.btn .btn-outline-primary}
 
 :::
 
@@ -180,7 +183,7 @@ We are looking to recruit talented graduate students and postdoctoral researcher
 :::
 
 ::: {.column width="45%"}
-### We are Hiring!!
+
 ![](img/people/ASHG24.png)
 
 :::
